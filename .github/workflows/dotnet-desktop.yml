@@ -22,8 +22,8 @@ jobs:
     env:
       Solution_Name: TP2_14E_A2022                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: TP2_14E_A2022_Tests/TP2_14E_A2022_Tests.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-      Wap_Project_Directory: TP2_14E_A2022    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: TP2_14E_A2022/TP2_14E_A2022.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Wap_Project_Directory: TP2_14E_A2022.Package    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
+      Wap_Project_Path: TP2_14E_A2022/TP2_14E_A2022.Package.wapproj               # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
