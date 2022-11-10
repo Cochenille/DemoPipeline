@@ -30,8 +30,8 @@ jobs:
       Solution_Path: TP2_14E_A2022.sln
       Test_Project_Path: TP2_14E_A2022_Tests\TP2_14E_A2022_Tests.csproj
       Wpf_Project_Path: TP2_14E_A2022\TP2_14E_A2022.csproj
-      Wap_Project_Directory: TP2_14E_A2022.Package
-      Wap_Project_Name: TP2_14E_A2022.Package.wapproj
+      Wap_Project_Directory: TP2_14E_A2022_WAP
+      Wap_Project_Name: TP2_14E_A2022_WAP.wapproj
       Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
 
     steps:
