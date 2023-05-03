@@ -28,7 +28,7 @@ namespace TP214E.Data
                 membres = db.GetCollection<Membre>("Membres").Aggregate().ToList();
             }catch (Exception ex)
             {
-                MessageBox.Show("Impossible 4otgj34togj34o8gj34o58gj3458g de se connecter à la base de données " + ex.Message, "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Impossible ballladfgadfgsdfgsdfg de se connecter à la base de données " + ex.Message, "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
 
             }
             return membres;
