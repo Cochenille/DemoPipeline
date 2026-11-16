@@ -12,6 +12,8 @@ namespace TP214E.Data
 {
     public class DAL
     {
+
+        public String dummy;
         public MongoClient mongoDBClient;
         public DAL()
         {
